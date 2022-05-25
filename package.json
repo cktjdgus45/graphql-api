@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "graphql api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cktjdgus45/graphql-api.git"
+  },
+  "author": "cha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cktjdgus45/graphql-api/issues"
+  },
+  "homepage": "https://github.com/cktjdgus45/graphql-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.8.0",
+    "graphql": "^16.5.0"
+  }
+}
